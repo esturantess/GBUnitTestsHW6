@@ -1,7 +1,9 @@
+package org.example;
+
 import java.util.List;
 public class NumList {
 
-    List<Double> list;
+    private List<Double> list;
 
     public NumList(List<Double> list) {
         this.list = list;
@@ -13,5 +15,18 @@ public class NumList {
             sum += aDouble;
         }
         return sum / list.size();
+    }
+
+    @Override
+    public String toString() {
+        return  "list = " + list;
+    }
+
+    public List<Double> getList() {
+        return list;
+    }
+
+    public void setList(List<Double> list) {
+        this.list = list;
     }
 }
