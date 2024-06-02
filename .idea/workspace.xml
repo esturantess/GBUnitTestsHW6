@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ea3d6b-7751-48ea-b49b-e03b2687c443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CompareTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CompareTwoListsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/checkstyle/suppressions.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CompareTwoLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/NumList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task1.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="E:\GB\Unit-tests\HW\Unit_tests_HW6\htmlReport" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,9 +48,11 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.CompareTwoListsTest.compareTwoListsFirstArithmeticMeanIsGreaterTest.executor": "Run",
+    "JUnit.CompareTwoListsTest.compareTwoListsSecondArithmeticMeanIsGreaterTest.executor": "Run",
     "JUnit.CompareTwoListsTest.emptyListsArithmeticMeanCompareTest.executor": "Run",
     "JUnit.CompareTwoListsTest.executor": "Run",
     "Maven.Unit_tests_HW6 [clean].executor": "Run",
+    "Maven.Unit_tests_HW6 [org.apache.maven.plugins:maven-checkstyle-plugin:3.2.0:check].executor": "Run",
     "Maven.Unit_tests_HW6 [test].executor": "Run",
     "Maven.Unit_tests_HW6 [validate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -54,12 +60,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "E:/GB/Unit-tests/HW/Unit_tests_HW6",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28390804"
+    "project.structure.side.proportion": "0.28390804",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GB\Unit-tests\HW\Unit_tests_HW6" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GB\Unit-tests\HW\Unit_tests_HW6\src\main\java\org,example" />
     </key>
@@ -67,7 +78,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompareTwoListsTest.compareTwoListsSecondArithmeticMeanIsGreaterTest">
+  <component name="RunManager" selected="JUnit.CompareTwoListsTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Unit_tests_HW6" />
@@ -140,9 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompareTwoListsTest" />
         <item itemvalue="JUnit.CompareTwoListsTest.compareTwoListsSecondArithmeticMeanIsGreaterTest" />
         <item itemvalue="JUnit.CompareTwoListsTest.emptyListsArithmeticMeanCompareTest" />
-        <item itemvalue="JUnit.CompareTwoListsTest" />
         <item itemvalue="JUnit.CompareTwoListsTest.compareTwoListsFirstArithmeticMeanIsGreaterTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -176,5 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Unit_tests_HW6$CompareTwoListsTest.ic" NAME="CompareTwoListsTest Coverage Results" MODIFIED="1717200109259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
