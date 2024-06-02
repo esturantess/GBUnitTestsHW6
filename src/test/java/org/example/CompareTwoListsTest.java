@@ -29,8 +29,8 @@ public class CompareTwoListsTest {
 
   @Test
   public void compareTwoListsArithmeticMeansAreEqualTest() {
-    NumList numList1 = new NumList(Arrays.asList(250.4, 11.0, 134.56, 175.0));
-    NumList numList2 = new NumList(Arrays.asList(250.4, 11.0, 134.56, 175.0));
+    NumList numList1 = new NumList(Arrays.asList(250.4, 11.0, 134.56, 166.0));
+    NumList numList2 = new NumList(Arrays.asList(70.96, 101.0, 265.36, 124.64));
     CompareTwoLists compareTwoLists = new CompareTwoLists(numList1, numList2);
     compareTwoLists.byArithmeticMean();
     Assertions.assertEquals("Средние значения равны", outputStreamCaptor.toString().trim());

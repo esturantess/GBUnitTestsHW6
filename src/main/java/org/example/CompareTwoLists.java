@@ -8,7 +8,6 @@ public class CompareTwoLists {
     this.list1 = list1;
     this.list2 = list2;
   }
-
   public void byArithmeticMean() {
     Double arithmeticMean1 = list1.calculateTheArithmeticMeanOfTheList();
     Double arithmeticMean2 = list2.calculateTheArithmeticMeanOfTheList();
