@@ -51,7 +51,7 @@ public class CompareTwoListsTest {
     NumList numList2 = new NumList(Arrays.asList());
     CompareTwoLists compareTwoLists = new CompareTwoLists(numList1, numList2);
     compareTwoLists.byArithmeticMean();
-    Assertions.assertEquals("Средние значения равны", outputStreamCaptor.toString().trim());
+    Assertions.assertEquals("Списки пусты, невозможно рассчитать среднее значение.", outputStreamCaptor.toString().trim());
   }
 
   @AfterEach

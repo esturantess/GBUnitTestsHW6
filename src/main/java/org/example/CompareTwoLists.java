@@ -1,4 +1,5 @@
 package org.example;
+
 public class CompareTwoLists {
   NumList list1;
   NumList list2;
@@ -12,7 +13,9 @@ public class CompareTwoLists {
     Double arithmeticMean1 = list1.calculateTheArithmeticMeanOfTheList();
     Double arithmeticMean2 = list2.calculateTheArithmeticMeanOfTheList();
 
-    if (arithmeticMean1 > arithmeticMean2) {
+    if (list1.getList().isEmpty() & list2.getList().isEmpty()) {
+      System.out.println("Списки пусты, невозможно рассчитать среднее значение.");
+    } else if (arithmeticMean1 > arithmeticMean2) {
       System.out.println("Первый список имеет большее среднее значение");
     } else if (arithmeticMean1.equals(arithmeticMean2)) {
       System.out.println("Средние значения равны");

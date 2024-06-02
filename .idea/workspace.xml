@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ea3d6b-7751-48ea-b49b-e03b2687c443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/checkstyle/suppressions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CompareTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CompareTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CompareTwoListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CompareTwoListsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/GB/Unit-tests/HW/Unit_tests_HW6",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28390804",
     "settings.editor.selected.configurable": "preferences.sourceCode"
